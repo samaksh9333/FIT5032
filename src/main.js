@@ -17,7 +17,6 @@ app.use(PrimeVue, {
   }
 })
 
-// Register PrimeVue components globally
 app.component('DataTable', DataTable)
 app.component('Column', Column)
 
